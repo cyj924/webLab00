@@ -62,6 +62,6 @@ li a {
 	color: orange;
 }
 
-* * * :not(.article) :hover  {
+* * * * :hover  {
 	background-color: #ffff00;
 }
