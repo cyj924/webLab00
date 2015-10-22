@@ -1,0 +1,4 @@
+a;324254;Apple;1
+a;324254;Apple;5
+a;324254;Orange;5
+a;324254;Orange;5

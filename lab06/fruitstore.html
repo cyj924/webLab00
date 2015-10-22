@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fruit Store</title>
+		<link href="http://selab.hanyang.ac.kr/courses/cse326/2015/problems/pResources/gradestore.css" type="text/css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<h1>Fruit Store</h1>
+
+		<p>
+			Fruit has been recognized as a good source of vitamins and minerals, and for their role in preventing vitamin C and vitamin A deficiencies. 
+			Let's buy fruits instead of grades!
+		</p>
+		
+		<hr />
+		
+		<h2>Buy Fresh Fruit today!</h2>
+		
+		<!-- create an HTML Form -->
+		<form action="customer.php" method="post">
+			<div>
+				Name: <input type="text" name="name" />
+				Membership: <input type="text" name="membership" />
+			</div>
+			
+			<div>
+				Options: 
+					<input type="checkbox" name="option[]" value="Organic" /> Organic
+					<input type="checkbox" name="option[]" value="Domestically Produced" /> Domestically Produced
+					<input type="checkbox" name="option[]" value="Genetically Modified" /> Genetically Modified
+					<input type="checkbox" name="option[]" value="Newly Harvested" /> Newly Harvested
+			</div>
+
+			<div>
+				Fruits: 
+				<select name="fruits">
+					<option value="Apple">Apple</option>
+					<option value="Melon">Melon</option>
+					<option value="Strawberry">Strawberry</option>
+					<option value="Orange">Orange</option>
+				</select>
+				Quantity:
+				<select name="quantity">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</div>
+
+			<div>
+				Credit Card: <input type="text" name="credit" />
+					<label><input type="radio" name="cc" value="Visa"/></label> Visa
+					<label><input type="radio" name="cc" value="MasterCard"/></label> MasterCard
+			</div>
+
+			<div id="submitbutton">
+				<!-- create submit button here -->
+				<input type="submit" name="submit-button" value="I like fruits!" />
+			</div>
+		</form>
+	</body>
+</html>
