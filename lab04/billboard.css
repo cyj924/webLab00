@@ -1,0 +1,365 @@
+#brand .fa-facebook {
+    color:#3b5998;
+}
+
+#brand .fa-twitter {
+    color:#55acee;
+}
+
+#brand .fa-google {
+    color : #dd4b39;
+}
+
+#brand .fa-pinterest {
+    color : #c8232c;
+}
+
+#brand .fa-instagram {
+    color :#3f729b;
+}
+
+#brand .fa-tumblr {
+    color : #34526f;
+}
+
+#search-wrap {
+    padding :0;
+    overflow: hidden;
+    float : none;
+    position: relative;
+}
+
+#search-wrap input {
+    border : none;
+    padding: 0.65em 0.75em;
+    font-size: 16px;
+    background-color: white;
+    width: 94%;
+    z-index: 1;
+}
+
+#search-wrap button {
+    border : none;
+    background-color: white;
+    top :3px;
+    right : 4px;
+    padding: 0.65em 0.75em;
+    position: absolute;
+    font-size: 13px;
+    z-index: 2;
+}
+
+body {
+    font-family: Brown, verdana, sans-serif;
+    margin: 0;
+}
+
+body > div:nth-child(2), header > div {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+}   
+
+header > div {
+    color: white;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+header > div > div {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 30px;
+    float: left;
+}
+
+header > div > div:last-child {
+    color: #ff6567;
+    float: right;
+}
+
+header > div > div:hover {
+    color: #1cace2;
+    cursor: pointer;
+}
+
+#brand {
+    padding: 32px 20px 10px;
+}
+
+#brand img {
+    width: 300px;
+    height: 62px;
+}
+
+#brand > div {
+    margin-top: 45px;
+    float: right;
+}
+
+#brand > div > a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav > div {
+    float: left;
+    border: 1px solid #D9D9D8;
+}
+
+nav > div:not(#search-wrap) {
+    padding: 0.65em 0.72em 0.65em;
+    border-right: 1px solid white;
+}
+
+nav > div:hover:not(#search-wrap) {
+    border: 1px solid black;
+    box-shadow: 0 0 0 1px black inset;
+}
+
+h1 {
+    text-align: center;
+}
+
+#wrap > div:nth-child(4) {
+    background-color: black;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+#wrap > div:nth-child(4) > div {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#wrap > div:nth-child(4) > div i {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-size: 1.25em;
+    float: left;
+}
+
+#wrap > div:nth-child(4) .fa-facebook {
+    background-color: #3b5998;
+}
+
+#wrap > div:nth-child(4) .fa-twitter {
+    background-color: #55acee;
+    margin-left: 0.25em;
+}
+
+aside {
+    float: right;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+aside > div > div {
+    height: 100px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #989898;
+    overflow: hidden;
+}
+
+.row-title {
+    color: #989898;
+    padding: 1em;
+}
+
+aside > div > div > div:not(.row-title) {
+    float: left;
+}
+
+aside > div > div > div:nth-child(2) {
+    width: 45px;
+    font-size: 2em;
+    margin-top: 6px;
+    text-align: center;
+}
+
+aside > div:first-child {
+    background-color: #484647;
+    padding: 0.75em;
+}
+
+.fa-star {
+    color: black;
+}
+
+aside img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 6px;
+}
+
+aside > div > div > div:nth-child(3) img {
+    float: left;
+}
+
+aside > div > div > div:nth-child(3) > p {
+    width: 192px;
+    margin: 0;
+ }
+
+aside p span {
+    display: block;
+    font-size: 1em;
+}
+
+aside p span:last-child {
+    font-size: 12px;
+    color: #1cace2;
+}
+
+aside p span:last-child:hover {
+    text-decoration: underline;
+    color: #1cace2;
+    cursor: pointer;
+}
+
+aside > div > div > div:last-child {
+    float: right;
+}
+
+aside > div > div > div:last-child i {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+aside > div > div > div:last-child i:hover {
+    cursor: pointer;
+    color: #1cace2;
+    border: 2px solid #1cace2;
+}
+
+article {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+article > div {
+    height: 104px;
+    border-top: 1px solid #CDCDCD;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+
+article > div:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+article > div > div:first-child {
+    width: 34px;
+    line-height: 104px;
+    text-align: center;
+    color: #8c8e90;
+    background-color: rgb(231, 231, 231);
+}
+
+.fa-arrow-up {
+    color: #05c648;
+}
+
+.fa-arrow-down {
+    color: #f93c33;
+}
+
+article > div > div:not(.play-button) {
+    float: left;
+}
+
+.play-button {
+    float: right;
+}
+
+article > div > div:nth-child(2) {
+    width: 100px;
+    margin: 10px 10px 0px;
+    text-align: center;
+}
+
+article > div > div:nth-child(2) > span:first-child {
+    display: block;
+    font-size: 62px;
+    text-align: center;
+}
+
+article > div > div:nth-child(2) > span:last-child {
+    display: block;
+    color: #989898;
+    font-size: 12.4px;
+    line-height: 1;
+}
+
+article > div > div:nth-child(3) > * {
+    float: left;
+}
+
+article > div > div:nth-child(3) img {
+    margin: 6px 12px 6px 0px;
+    width: 91px;
+    height: 91px;
+}
+
+article > div > div:nth-child(3) span {
+    display: block;
+    font-size: 24px;
+}
+
+article > div > div:nth-child(3) span:last-child {
+    font-size: 16px;
+    color: #1cace2;
+}
+
+article > div > div:nth-child(3) span:last-child:hover {
+    text-decoration: underline;
+    color: #1cace2;
+    cursor: pointer;
+}
+
+.play-button i {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.play-button i:hover {
+    cursor: pointer;
+    color: #1cace2;
+    border: 2px solid #1cace2;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+    padding: 8px 8px 8px;
+}
+
+footer > div {
+    float: right;
+}
