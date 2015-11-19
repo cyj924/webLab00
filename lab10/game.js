@@ -106,7 +106,7 @@ function scoreChecking() {
 		blocks[selectedBlockNum].addClassName("normal");
 		targetBlocks.splice(targetBlocks.indexOf(selectedBlockNum), 1);
 	} else if (blocks[selectedBlockNum].hasClassName("trap")) {
-		score = -20;
+		score = -30;
 		blocks[selectedBlockNum].removeClassName("trap");
 		blocks[selectedBlockNum].addClassName("normal");
 	}
