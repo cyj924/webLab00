@@ -66,10 +66,10 @@ function setTargetToShow() {
 		clearInterval(instantTimer);
 	} else {
 		var randNum;
-		randNum = Math.floor(Math.random() * 8);
+		randNum = Math.floor(Math.random() * 9);
 		var blocks = $$(".block");
 		while(blocks[randNum].hasClassName("target") || trapBlock == randNum) {
-			randNum = Math.floor(Math.random() * 8);
+			randNum = Math.floor(Math.random() * 9);
 		}
 		blocks[randNum].removeClassName("normal");
 		blocks[randNum].addClassName("target");
@@ -79,10 +79,10 @@ function setTargetToShow() {
 
 function setTrapToShow() {
 	var randNum;
-	randNum = Math.floor(Math.random() * 8);
+	randNum = Math.floor(Math.random() * 9);
 	var blocks = $$(".block");
 	while(blocks[randNum].hasClassName("target")) {
-		randNum = Math.floor(Math.random() * 8);
+		randNum = Math.floor(Math.random() * 9);
 	}
 	blocks[randNum].removeClassName("normal");
 	blocks[randNum].addClassName("trap");
