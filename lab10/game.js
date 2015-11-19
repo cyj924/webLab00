@@ -62,9 +62,7 @@ function startToCatch(){
 function setTargetToShow() {
 	if (targetBlocks.length > 4) {
 		alert("You lose");
-		clearInterval(targetTimer);
-		clearInterval(trapTimer);
-		clearInterval(instantTimer);
+		stopGame();
 	} else {
 		var randNum;
 		randNum = Math.floor(Math.random() * 9);
