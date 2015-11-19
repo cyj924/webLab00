@@ -14,6 +14,7 @@ document.observe('dom:loaded', function(){
 });
 
 function stopToStart(){
+	stopGame();
 	$("state").textContent = "Ready!";
 	$("score").textContent = "0";
 	clearInterval(targetTimer);
