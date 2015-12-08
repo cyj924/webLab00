@@ -25,7 +25,9 @@ function labSelect(drag, drop, event) {
 	 */
 	var count = $$("#selection>li").length;
 
-	//if (drop.id != drag.parentNode.id) {
+	if (drop.id == drag.parentNode.id) {
+
+	} else {
 		if (drop.id == "selectpad") {
 			if (count < 3) {
 				$("labs").removeChild(drag);
@@ -38,15 +40,15 @@ function labSelect(drag, drop, event) {
 		} else if (drop.id == "labs") {
 			$("selectpad").removeChild(drag);
 			$("labs").appendChild(drag);
-			var revert_li;
-
+			
+			var revertLi;
 			for (var i = 0; i < $$("#selection>li").length ; i++) {
 				if (drag.getAttribute("alt") == $$("#selection>li")[i].innerHTML) {
-					revert_li = $$("#selection>li")[i];
+					revertLi = $$("#selection>li")[i];
 				}
 			}
-			$("selection").removeChild(revert_li);
+			$("selection").removeChild(revertLi);
 		}
-	//} 
+	} 
 }
 
